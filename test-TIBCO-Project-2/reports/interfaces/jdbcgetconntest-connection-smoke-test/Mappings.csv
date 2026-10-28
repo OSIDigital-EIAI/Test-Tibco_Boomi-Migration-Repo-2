@@ -1,0 +1,3 @@
+﻿"Rule ID","Mapping","Target field","Source","Type","Condition","Function","Complexity","Notes"
+"MR-001","Activity input bindings (no data mapping)","javaCodeActivityInput/LocalConnection","$JDBC-Get-Connection/output/JavaConnectionAccessor","passthrough","","object reference passed as-is","high","No Boomi equivalent: Boomi does not pass a JDBC connection object between shapes or into a script. This binding is the reason the Java cannot be ported literally."
+"MR-002","Activity input bindings (no data mapping)","Log/ActivityInput/message","(none)","hardcoded","","'Success..'","low","Boomi: Notify shape message."
